@@ -1,0 +1,112 @@
+ <!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8' />
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome FrameRemove this if you use the .htaccess -->
+		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+
+		<title>The Great Stone Alpha v1.00</title>
+		<meta name='description' content='Goblin.js Engine' />
+		<meta name='author' content='Hyunseok Oh' />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		
+		<!-- User Selection Disabling -->
+		<style>
+			@font-face {
+ 			   font-family: 'Ceviche';
+    		   src: url('font/CevicheOne-Regular.otf');
+			}
+			
+			@font-face {
+ 			   font-family: 'Chiller';
+    		   src: url('font/Chiller.ttf');
+			}
+		
+			* {
+				-webkit-touch-callout: none;
+				-webkit-user-select: none;
+			}
+		</style>
+		
+		<!-- Load Common JavaScript Library -->
+		<script src='js/com/modernizr.2.6.2.js'></script>
+		<script src='js/com/jquery-1.10.1.min.js'></script>
+		<script src='js/com/jquery.mobile.custom.js'></script>
+		
+		<!-- Load Goblin Game Engine Library -->
+		<script src='js/goblin/SystemInfo.js'></script>
+		<script src='js/goblin/DomUtil.js'></script>
+		<script src='js/goblin/Core.js'></script> 
+		<script src='js/goblin/Asset.js'></script>
+		<script src='js/goblin/AssetManager.js'></script>
+		<script src='js/goblin/Effect.js'></script>
+		<script src='js/goblin/Graphics.js'></script>
+		<script src='js/goblin/Mathematics.js'></script>
+		<script src='js/goblin/NetManager.js'></script>
+		<script src='js/goblin/EventManager.js'></script>
+		<script src='js/goblin/SceneManager.js'></script>
+		<script src='js/goblin/SoundManager.js'></script>
+		<script src='js/goblin/VideoManager.js'></script>
+		<script src='js/goblin/ObjButton.js'></script>
+		<script src='js/goblin/ObjSprite.js'></script>
+		<script src='js/goblin/ObjManager.js'></script>
+		<script src='js/goblin/ObjWindow.js'></script>
+		<script src='js/goblin/Text.js'></script>
+		<script src='js/goblin/Timer.js'></script>
+		<script src='js/goblin/Goblin.js'></script>
+		
+		<!-- Load Game Data -->
+		<script src='js/data/DataBlocks.js'></script>
+		<script src='js/data/DataEnemy.js'></script>
+		<script src='js/data/DataEvent.js'></script>
+		<script src='js/data/DataFont.js'></script>
+		<script src='js/data/DataItem.js'></script>
+		<script src='js/data/DataPlayer.js'></script>
+		<script src='js/data/DataSkill.js'></script>
+		<script src='js/data/DataSummon.js'></script>
+		<script src='js/data/SpriteBoss.js'></script>
+		<script src='js/data/SpriteEffect.js'></script>
+		<script src='js/data/SpriteEnemy.js'></script>
+		<script src='js/data/SpriteLogin.js'></script>
+		<script src='js/data/SpriteLogo.js'></script>
+		<script src='js/data/SpritePlayer.js'></script>
+		<script src='js/data/SpritePuzzle.js'></script>
+		<script src='js/data/SpriteSummon.js'></script>
+		<script src='js/data/TextureArrow.js'></script>
+		<script src='js/data/TextureButton.js'></script>
+		<script src='js/data/TextureFrame.js'></script>
+		<script src='js/data/TextureGUI.js'></script>
+		<script src='js/data/TextureItem.js'></script>
+		<script src='js/data/TexturePuzzle.js'></script>
+		
+		<!-- Load Game Source -->
+		<script src='js/game/Arrow.js'></script>
+		<script src='js/game/Enemy.js'></script>
+		<script src='js/game/Item.js'></script>		
+		<script src='js/game/Player.js'></script>
+		<script src='js/game/Summon.js'></script>
+		<script src='js/game/StateEnding.js'></script>
+		<script src='js/game/StateIntro.js'></script>
+		<script src='js/game/StateLoad.js'></script>
+		<script src='js/game/StateLobby.js'></script>
+		<script src='js/game/StateLogin.js'></script>
+		<script src='js/game/StateLogo.js'></script>
+		<script src='js/game/StatePlay.js'></script>
+		<script src='js/game/StateTavern.js'></script>
+		<script src='js/game/StateInventory.js'></script>
+		<script src='js/game/StateStore.js'></script>
+		<script src='js/game/StreamPuzzle.js'></script>
+		<script src='js/game/StateManager.js'></script>
+		
+		<!-- Start Application -->
+		<script>
+			$(document).ready(function() {
+				GoblinStart();
+			});
+		</script>
+	</head>
+	<body style='margin:0px; background-color:white;'>
+	</body>
+</html>
